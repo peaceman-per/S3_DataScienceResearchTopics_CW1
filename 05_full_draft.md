@@ -1,3 +1,15 @@
+# Abstract
+
+Large language models (LLMs) demonstrate remarkable natural language generation capabilities but exhibit a persistent tendency to produce factually inaccurate or unsupported outputs—a phenomenon termed "hallucination." This review addresses: *How do large language models balance factual accuracy and creative generation, and what methodological approaches have been proposed to mitigate hallucination in Generative AI systems?*
+
+The review synthesises recent research examining hallucination taxonomies, causal mechanisms, and intervention strategies. Definitional frameworks distinguish intrinsic hallucinations (contradicting provided context) from extrinsic hallucinations (unsupported by training data), and separate hallucination (consistency with model-accessible sources) from factuality (correspondence with external truth). Proposed causal mechanisms include overconfidence from hard-label supervision, knowledge overshadowing wherein dominant representations suppress less prominent information, and systemic factors spanning data collection, architecture, pretraining, fine-tuning, and inference.
+
+Mitigation strategies span retrieval-augmented generation, reasoning-based methods such as Chain-of-Thought, knowledge distillation, and contrastive decoding. Evaluation methodologies have evolved beyond surface overlap metrics toward entailment-based classifiers, uncertainty quantification, and dynamic benchmark generation. The emerging consensus indicates hybrid approaches show greatest promise given hallucination's multi-causal nature.
+
+Critically, the field recognises second-order trade-offs: excessive faithfulness optimisation reduces informational coverage, truthfulness interventions can degrade safety-aligned refusal behaviours, and precision-recall tensions emerge between helpfulness and hallucination risk. These findings shift focus from eliminating hallucination to managing it within multi-objective alignment frameworks. Research gaps persist in benchmark coverage, philosophical grounding of the creativity-hallucination boundary, and computational overhead analysis. As LLMs become increasingly deployed in high-stakes domains, achieving principled balance between factual accuracy and creative generation remains central to generative AI research.
+
+
+
 ## Background
 
 Large language models (LLMs) have achieved remarkable advances in natural language generation, demonstrating capabilities that range from factual question answering to creative writing. However, these systems exhibit a persistent tendency to produce outputs that are fluent and coherent yet factually inaccurate or unsupported by evidence—a phenomenon widely termed "hallucination" (Alansari & Luqman, 2025). This propensity poses fundamental challenges to the deployment of generative AI in domains requiring high epistemic reliability, such as medical diagnosis, legal reasoning, and knowledge-grounded summarisation. The tension between factual accuracy and generative flexibility has emerged as a central concern in contemporary AI research, with implications for both system design and evaluation methodology.
