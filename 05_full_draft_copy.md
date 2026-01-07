@@ -80,3 +80,15 @@ Despite progress, substantial limitations persist. Philosophically, the lack of 
 Addressing these gaps requires coordinated advances across multiple dimensions. Philosophically, engagement with epistemology and normative frameworks would ground evaluation principles. Methodologically, expanding benchmark coverage, validating LLM judges systematically, and integrating human evaluation would strengthen validity. Causally, systematic mechanistic investigations across diverse architectures and scales would deepen causal understanding. Pragmatically, comprehensive computational overhead analyses and abstention policies would inform practical deployment decisions.
 
 This review identifies promising MSc research directions. These include developing theoretically grounded evaluation frameworks balancing novelty with accuracy, comparing mitigation strategies' computational trade-offs, investigating representational entanglement using interpretability techniques, extending research to underserved domains, and operationalising multi-objective evaluation frameworks. The fundamental tension between factual accuracy and creative generation will remain central to generative AI research. Progress requires philosophical clarity about system expectations and methodological rigour in measurement. As LLMs become increasingly capable and widely deployed, the stakes of achieving this balance continue to grow.
+
+
+# References
+
+*All papers can be found in the provided files or on arXiv.*
+
+- Alansari & Luqman (2025) — arXiv:2510.06265v2
+- Bang et al. (2025) — arXiv:2504.17550v1
+- Liu et al. (2025) — paper found in files
+- Nguyen et al. (2025) — arXiv:2502.11306v1
+- Zhang et al. (2025) — arXiv:2502.16143v1
+- Mahmoud et al. (2025) — arXiv:2510.07775v1
